@@ -1,0 +1,99 @@
+body{
+    width: 1420px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.encabezado{
+    width: 100%;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 10%;
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.menu-contenedor{
+    width: 30%;
+    margin-right: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu .item{
+    text-decoration: none;
+    list-style: none;
+    border-right: 1px solid black;
+    width: 50px;
+}
+
+.principal{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.heading{
+    width: 98%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.heading-contenido{
+    width: 60%;
+}
+
+.img-heading{
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* ------------ */
+.contenido{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 98%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.tarjetas{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 10px;
+}
+
+.tarjeta{
+    text-align: center;
+}
+
+.tarjeta img{
+    border-radius: 40%;
+}
+
+.boton{
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+}
